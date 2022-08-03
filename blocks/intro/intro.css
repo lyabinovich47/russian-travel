@@ -1,0 +1,26 @@
+.intro {
+  max-width: 1280px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-top: 92px;
+  padding-left: 148px;
+}
+
+@media (max-width: 1280px) {
+  .intro {
+    max-width: 100%;
+    padding-left: calc(48px + 100*(100vw - 1024px)/(1280 - 1024));
+  }
+}
+
+@media (max-width: 1024px) {
+  .intro {
+    padding: 88px 24px 0 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    padding: 64px 16px 0 16px;
+  }
+}
