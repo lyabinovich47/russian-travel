@@ -1,6 +1,5 @@
 .footer {
   max-width: 1280px;
-  min-height: 42px;
   box-sizing: border-box;
   margin: 0 auto;
   margin-top: 92px;
@@ -9,20 +8,20 @@
   align-items: center;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1279px) {
   .footer {
     max-width: 100%;
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .footer {
     padding: 0 24px 24px 24px;
     margin-top: 88px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .footer {
     margin-top: 64px;
     padding: 0 16px 24px 16px;

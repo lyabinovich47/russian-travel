@@ -1,7 +1,7 @@
 .intro__list {
   margin: 0;
   margin-top: 33px;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 12px;
   line-height: 1.5;
   color: #FFFFFF;
@@ -9,7 +9,7 @@
   padding-left: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .intro__list {
     margin-top: 34px;
   }
