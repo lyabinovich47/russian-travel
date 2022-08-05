@@ -13,23 +13,21 @@
   align-items: center;
 }
 
-@media (min-width: 1024px) {
-  .cover__link::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: #2A2C2F;
-    opacity: 0.3;
-    z-index: 2;
-  }
+.cover__link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #2A2C2F;
+  opacity: 0.3;
+  z-index: 2;
+}
 
-  .cover__link:hover::before {
-    opacity: .8;
-    transition: opacity .3s;
-  }
+.cover__link:hover::before {
+  opacity: .8;
+  transition: opacity .3s;
 }
 
 @media (max-width: 1279px) {
